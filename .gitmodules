@@ -1,0 +1,12 @@
+[submodule "src/WFpropagate"]
+	path = src/WFpropagate
+	url = https://github.com/AtmoTurbu/WFpropagate
+[submodule "src/OpticsMaterials"]
+	path = src/OpticsMaterials
+	url = https://github.com/AtmoTurbu/OpticsMaterials
+[submodule "src/AtmosphereModel"]
+	path = src/AtmosphereModel
+	url = https://github.com/AtmoTurbu/AtmosphereModel
+[submodule "src/AtmosphericTurbulence"]
+	path = src/AtmosphericTurbulence
+	url = https://github.com/AtmoTurbu/AtmosphericTurbulence
