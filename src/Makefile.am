@@ -30,7 +30,7 @@ WOMAT_LDADD =
 ##
 
 SUBDIRS += OpticsMaterials
-WOMAT_LDADD += OpticsMaterials/libopticsmaterial.la
+WOMAT_LDADD += OpticsMaterials/libopticsmaterials.la
 WOMAT_CPPFLAGS += -I@abs_top_srcdir@/src/OpticsMaterials
 
 SUBDIRS += WFpropagate
@@ -42,7 +42,7 @@ WOMAT_LDADD += AtmosphereModel/libatmospheremodel.la
 WOMAT_CPPFLAGS += -I@abs_top_srcdir@/src/AtmosphereModel
 
 SUBDIRS += AtmosphericTurbulence
-WOMAT_LDADD += AtmosphericTurbulence/libatmosphicturbulence.la
+WOMAT_LDADD += AtmosphericTurbulence/libatmosphericturbulence.la
 WOMAT_CPPFLAGS += -I@abs_top_srcdir@/src/AtmosphericTurbulence
 
 
