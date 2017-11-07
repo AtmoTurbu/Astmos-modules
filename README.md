@@ -4,7 +4,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/596968680753486e8146b764644a604c)](https://www.codacy.com/app/oguyon/Cfits?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=oguyon/Cfits&amp;utm_campaign=Badge_Grade)
 
 
-# FALCON : Compute And Control for Adaptive Optics
+# WOMAT : Wavefront Optics Materials Atmospheric Turbulence
 
 ## Overview
 
@@ -18,7 +18,7 @@ Executable launches a command line interface (CLI). Type "help" in the CLI to ge
 ## Downloading and installing 
 
 
-The FALCON package follows the standard git clone steps and GNU build process :
+The WOMAT package follows the standard git clone steps and GNU build process :
 
 	git clone https://github.com/AtmoTurbu/WOMAT
 	git submodule init
