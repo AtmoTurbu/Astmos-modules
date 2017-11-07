@@ -1,7 +1,3 @@
-SUBDIRS = src
-ACLOCAL_AMFLAGS = -I m4
-
-
 #SUFFIXES = .c .h .y .l
 
 bin_PROGRAMS = WOMAT
@@ -34,7 +30,7 @@ WOMAT_LDADD =
 ##
 
 SUBDIRS += OpticsMaterials
-WOMAT_LDADD += OpticsMaterials/libopricsmaterial.la
+WOMAT_LDADD += OpticsMaterials/libopticsmaterial.la
 WOMAT_CPPFLAGS += -I@abs_top_srcdir@/src/OpticsMaterials
 
 SUBDIRS += WFpropagate
