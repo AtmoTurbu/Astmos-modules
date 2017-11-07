@@ -8,7 +8,7 @@
 
 ## Overview
 
-Set of image processing tools and functions accessible through a command line interface (CLI). Holds images in RAM, with image stream support (shared memory with low-latency IPC support).
+Atmospheric wavefront simulation. Optics propagation.
 
 Written in C, optimized for performance.
 
@@ -21,6 +21,7 @@ Executable launches a command line interface (CLI). Type "help" in the CLI to ge
 The WOMAT package follows the standard git clone steps and GNU build process :
 
 	git clone https://github.com/AtmoTurbu/WOMAT
+	cd WOMAT
 	git submodule init
 	git submodule update
 	autoreconf -i
